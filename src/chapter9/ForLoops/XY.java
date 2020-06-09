@@ -12,12 +12,13 @@ public class XY
 {
     public static void main(String[] args)
     {
-        System.out.print("x            y\n");
-        System.out.print("-------------\n");
+        System.out.print("x              y\n");
+        System.out.print("---------------\n");
 
-        for (double number = -10; number <= 10; number = number + 0.5)
+        for (double x = -10; x <= 10; x = x + 0.5)
         {
-            System.out.println( number);
+            double y;
+            System.out.println( x + "          " + (y = x * x));
         }
     }
 }

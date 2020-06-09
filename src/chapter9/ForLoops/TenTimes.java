@@ -14,6 +14,5 @@ public class TenTimes
             System.out.print(numberOfTimes + ". " + message);
         }
 
-
     }
 }
